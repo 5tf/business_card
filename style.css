@@ -1,0 +1,107 @@
+#menu a:link{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:visited{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+body{
+	background-color:#333;
+	color: white;
+}
+
+#menu ul {
+	display: flex;
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	background-color: #111;
+  	justify-content: center;
+}
+
+
+#menu ul li {
+  	display: flex;
+  	position: relative;
+  	
+}
+
+#menu li a {
+	display: flex;
+	color: white;
+	justify-content: center;
+	padding: 14px 16px;
+}
+
+#menu li a:hover {
+	background-color: #333;
+}
+
+.data_row{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.data_column ul{
+	margin-top: 0px;
+	padding-top: 0px; 
+}
+
+h4{
+	margin-bottom: 0px;
+}
+
+#name{
+	font-size: 24pt;
+}
+
+#profile_picture{
+	height: 351px;
+	width: 273px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.data_column{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	font-size: 16pt;
+}
+
+.data_column{
+
+}
+
+.data_row a:link{
+	font-size: 16pt;
+	color: yellow;
+	text-decoration: none;
+	font-style: italic; 
+}
+
+.data_row a:visited{
+	font-size: 16pt;
+	color: yellow;
+	text-decoration: none;
+	font-style: italic; 
+}
+
+#coderscrew{
+	height: 157px;
+	width: 299px;
+}
+
+p {
+	font-size: 16pt;
+	text-indent: 20px;
+	width: 400px;
+}
