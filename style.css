@@ -147,4 +147,26 @@ footer label{
 .picture{
 	background-color: var(--main-color);
 	width: 300px;
+	border-radius: 5px;
+	
+}
+a:hover > .picture{
+	border-style: solid;
+	border-color: red;
+}
+
+a:focus > .picture{
+	border-style: solid;
+	border-color: purple;
+}
+
+@keyframes threeHundredSixty{
+	0% {}
+	100% {transform: rotate(360deg)}
+}
+
+.rotated:hover{
+	animation-name: threeHundredSixty;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
 }
