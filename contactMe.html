@@ -2,7 +2,7 @@
 <html lang="pl-PL">
 
 <head>
-	<meta charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title>Stefan Piróg</title>
@@ -13,18 +13,26 @@
 
 <div id="menu">
 	<ul>
-		<li><a href="home.html">Strona główna</a></li>
+		<li><a href="index.html">Strona główna</a></li>
+		<li><a href="cv.html">Curriculum vitae</a></li>
    	 	<li><a href="portfolio.html">Portfolio</a></li>
 		<li><a href="contactMe.html">Kontakt</a></li>
 	</ul>
 </div>
 
 <div class="data_column">
-	<h4>Dane kontaktowe</h4>
+	<h2>Dane kontaktowe</h2>
 	</br>
-	<label>Adres e-mail:</label> <em>stefan.andrzej.pirog@gmail.com</em>
-
-	<h4>Formularz kontaktowy</h4>
+	<label>Adres e-mail (prywatny):</label>
+	<em class="contact_data">el.steve.pp@gmail.com</em>
+	</br>
+	<label>Adres e-mail (szkolny):</label> <em class="contact_data">226223@student.pwr.edu.pl</em>
+	</br>
+	<label>Numer indeksu:</label> <em class="contact_data">226223</em>
+	</br>
+	<label>Numer telefonu:</label> <em class="contact_data">+48 607 827 729</em>
+	</br>
+	<h2>Formularz kontaktowy</h2>
 	</br>
  	<form action="send.php" method="post">
  	<input class="input_data" name="email" type="text" placeholder="Adres email"/></br>
@@ -34,11 +42,18 @@
   	</br>
   	<textarea name="comment" rows="15" cols="40"></textarea></br>
   	<input id="button" type="submit" value="Wyślij" />
-  	</form> 	
+  	</form> 
+  	</br>	
 </div>
 
 
 
 </body>
-
+</br>
+<footer>
+	<div>
+		<label>Strona utworzona na potrzeby kursu CodersCamp organizowanego przez CodersCrew. 2019r.</label>
+		<img id="coderscrew" src="coderscrew.jpg"/>
+	</div>
+</footer>
 </html>

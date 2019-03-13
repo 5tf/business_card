@@ -2,12 +2,15 @@
 	--main-font-size: 16pt;
 	--main-color: white;
 	--link-color: yellow;
+	--footer-color: #111;
+	--background-color: #333;
 }
 
 #menu a:link{
 	font-size: 20px;
 	color: var(--main-color);
 	text-decoration: none;
+	font-style: normal;
 }
 
 #menu a:visited{
@@ -17,7 +20,7 @@
 }
 
 body{
-	background-color:#333;
+	background-color: var(--background-color);
 	color: var(--main-color);
 }
 
@@ -26,7 +29,7 @@ body{
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
-  	background-color: #111;
+  	background-color: var(--footer-color);
   	justify-content: center;
 }
 
@@ -45,7 +48,7 @@ body{
 }
 
 #menu li a:hover {
-	background-color: #333;
+	background-color: var(--background-color);
 }
 
 .data_row{
@@ -60,11 +63,8 @@ body{
 	padding-top: 0px; 
 }
 
-h4{
-	margin-bottom: 0px;
-}
-
 #name{
+	display: flex;
 	font-size: 24pt;
 }
 
@@ -83,14 +83,18 @@ h4{
 	font-size: 16pt;
 }
 
-.data_row a:link{
+.data_column label{
+	margin-bottom: 10px;
+}
+
+a:link{
 	font-size: var(--main-font-size);
 	color: var(--link-color);
 	text-decoration: none;
 	font-style: italic; 
 }
 
-.data_row a:visited{
+a:visited{
 	font-size: var(--main-font-size);
 	color: var(--link-color);
 	text-decoration: none;
@@ -98,24 +102,49 @@ h4{
 }
 
 #coderscrew{
-	height: 157px;
-	width: 299px;
+	height: 70px;
+	width: 140px;
 }
 
 p {
 	font-size: var(--main-font-size);
 	text-indent: 20px;
 	width: 400px;
+	justify-content:
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 #button{
 	width: 100px;
 }
 
-#message{
+.input_data{
+	width: 300px;
+}
+
+footer{
+	background-color: var(--footer-color);
+}
+
+footer div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.input_data{
+footer label{
+	margin-left: 15px;
+	font-size: 14pt;
+}
+
+.contact_data{
+	font-size: 18pt;
+	color: var(--link-color);
+}
+
+.picture{
+	background-color: var(--main-color);
 	width: 300px;
 }
