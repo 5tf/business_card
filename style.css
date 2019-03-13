@@ -1,18 +1,24 @@
+:root {
+	--main-font-size: 16pt;
+	--main-color: white;
+	--link-color: yellow;
+}
+
 #menu a:link{
 	font-size: 20px;
-	color: white;
+	color: var(--main-color);
 	text-decoration: none;
 }
 
 #menu a:visited{
 	font-size: 20px;
-	color: white;
+	color: var(--main-color);
 	text-decoration: none;
 }
 
 body{
 	background-color:#333;
-	color: white;
+	color: var(--main-color);
 }
 
 #menu ul {
@@ -33,7 +39,7 @@ body{
 
 #menu li a {
 	display: flex;
-	color: white;
+	color: var(--main-color);
 	justify-content: center;
 	padding: 14px 16px;
 }
@@ -77,20 +83,16 @@ h4{
 	font-size: 16pt;
 }
 
-.data_column{
-
-}
-
 .data_row a:link{
-	font-size: 16pt;
-	color: yellow;
+	font-size: var(--main-font-size);
+	color: var(--link-color);
 	text-decoration: none;
 	font-style: italic; 
 }
 
 .data_row a:visited{
-	font-size: 16pt;
-	color: yellow;
+	font-size: var(--main-font-size);
+	color: var(--link-color);
 	text-decoration: none;
 	font-style: italic; 
 }
@@ -101,7 +103,19 @@ h4{
 }
 
 p {
-	font-size: 16pt;
+	font-size: var(--main-font-size);
 	text-indent: 20px;
 	width: 400px;
+}
+
+#button{
+	width: 100px;
+}
+
+#message{
+	align-items: center;
+}
+
+.input_data{
+	width: 300px;
 }

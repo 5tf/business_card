@@ -22,17 +22,19 @@
 <div class="data_column">
 	<h4>Dane kontaktowe</h4>
 	</br>
-	<label>Adres e-mail: <em>stefan.andrzej.pirog@gmail.com</em></label>
+	<label>Adres e-mail:</label> <em>stefan.andrzej.pirog@gmail.com</em>
 
 	<h4>Formularz kontaktowy</h4>
-
- <form action="send.php" method="post">
-  Email: <input name="email" type="text" /><br />
-  Temat: <input name="subject" type="text" /><br />
-  Wiadomość:<br />
-  <textarea name="comment" rows="15" cols="40"></textarea><br />
-  <input type="submit" value="Wyślij" />
-  </form>
+	</br>
+ 	<form action="send.php" method="post">
+ 	<input class="input_data" name="email" type="text" placeholder="Adres email"/></br>
+ 	<input class="input_data" name="subject" type="text" placeholder="Temat"/></br>
+ 	</br>
+  	<label id="message">Treść wiadomości:</label>
+  	</br>
+  	<textarea name="comment" rows="15" cols="40"></textarea></br>
+  	<input id="button" type="submit" value="Wyślij" />
+  	</form> 	
 </div>
 
 
